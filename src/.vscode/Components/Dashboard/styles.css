@@ -1,0 +1,127 @@
+body{
+    background-color: #121214;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerDash{
+    background-color: #121214;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #212529;
+    align-items: center;
+}
+
+.titleOne{
+    font-size: 16px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.exitBtn{
+    width: 56px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #212529;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.exitBtn:hover{
+    background-color: #FF427F;
+}
+
+.userInfo{
+    height: 118px;
+    background-color: #121214;
+    border-bottom: 1px solid #212529;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleDash{
+    color: #F8F9FA;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.titleCard{
+    color: #FF577f;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.spanDash{
+    font-weight: 400;
+    color: #868E96;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.secBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secTec{
+    max-width: 780px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.titleCards{
+    color: #F8F9FA;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+.addTec{
+    margin-top: 8px;
+    background-color: #212529;
+    border-radius: 4px;
+    color: #F8F9FA;
+    width: 33px;
+    height: 33px;
+    border: none;
+}
+.addTec:hover{
+    background-color: #FF427F;
+}
+
+.cardsSec{
+    background-color: #212529;
+    height: auto;
+    width: 80%;
+    max-width: 780px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 424px){  /* mob ver */
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+}

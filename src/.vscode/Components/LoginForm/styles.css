@@ -1,0 +1,31 @@
+.entrar{
+color: white;
+height: 48px;
+width: 324px;
+border: none;
+box-sizing: border-box;
+border-radius: 4.06066px;
+flex-grow: 0;
+margin: 22px 0px;
+background-color: #FF577F;
+}
+
+.entrar:hover{
+    background-color: #FF427F;
+}
+
+.cadastre{
+    color: white;
+    height: 48px;
+    width: 324px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4.06066px;
+    flex-grow: 0;
+    margin: 22px 0px;
+    background-color: #868E96; 
+}
+
+.cadastre:hover{
+    background-color: #FF427F;
+}
